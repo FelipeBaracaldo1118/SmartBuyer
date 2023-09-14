@@ -1,0 +1,148 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@200&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        color: #023047;
+    }
+    body {  
+        background: whitesmoke;
+        overflow-x: hidden;
+    }
+
+    header {    
+        height: 100px;
+    }
+
+    .container__header{
+
+        height: 100%;
+        margin-bottom: auto;
+        padding: 40px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .menu nav ul{
+        display: flex;
+    }
+    .menu nav ul li{
+        list-style: none;
+        padding: 0px 20px;
+    }
+
+    .menu nav ul li a{
+        font-size: 16px;
+        text-decoration: none;
+        color: #023047;
+        font-size: 16px;
+        font-weight: bold;
+        transition: opacity 300ms ;
+    }
+
+    .menu nav ul li a:hover{
+        opacity: 0.7;
+        
+    }
+
+    .btn__header-usuario,
+    .btn_registro-cover{
+        padding: 14px 50px;
+        border: none;
+        background-color: #FB8500;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background, color 300ms;
+    }
+
+    .btn__header-usuario:hover, .btn_registro-cover:hover{
+        
+        background: #023047;
+        color: white;
+    }
+
+    /*cover*/
+
+    main{
+        max-width: 1200px;
+        height: calc(100vh + 800px );
+        padding: 40px;
+        margin: auto;
+        background: whitesmoke;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+
+    .cover{
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .text_information-cover{
+        width: 50%;
+    }
+
+    .text_information-cover h1{
+        font-size: 50px;
+    }
+    .text_information-cover p{
+        font-size: 20px;
+        margin-top: 40px;
+    }   
+    .text_information-cover H3{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .buttons__cover{
+        display: flex;
+        margin-top: 40px;
+    }
+    .media_cover{
+        width: 50%;
+    }
+    .media_cover video{
+        width: 100%;
+        margin-top: -40px;
+    }
+    
+    /*seleccion de tiendas*/
+
+    .Seleccione_una_tienda{
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .Seleccione_una_tienda h2{
+        align-items: center;
+        margin-left: 40%;
+        margin-bottom: 40px;
+        margin-top: 60px;
+
+    }
+    .tiendas{
+        margin-left: -12%; 
+        display: flex;
+    }
+    .item {
+        padding: 30px;  
+        border-radius: 20px;
+        margin-left: 100px !important;
+        max-width: 1200px;
+    }
+    
+    .item img{
+        padding: 30px;  
+        max-height: 200px;
+        max-width: 200px;
+        
+    }
