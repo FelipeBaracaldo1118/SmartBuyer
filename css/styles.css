@@ -118,31 +118,54 @@
     /*seleccion de tiendas*/
 
     .Seleccione_una_tienda{
+        max-width: 1200px;
         justify-content: center;
-        margin-top: 60px;
-        margin-bottom: 40px;
+        margin: 30px -70px 30px -70px;
     }
     .Seleccione_una_tienda h2{
+        
+        
         align-items: center;
         margin-left: 40%;
         margin-bottom: 40px;
         margin-top: 60px;
 
     }
+    .Seleccione_una_tienda p{
+        margin: auto;
+        padding-left: 10%;
+        margin-bottom: 2%;
+        
+    }
     .tiendas{
-        margin-left: -12%; 
+        max-width: 1200px;
+        box-sizing: border-box;
+        margin: auto ;
+        padding-left: -8%;
         display: flex;
     }
     .item {
-        padding: 30px;  
-        border-radius: 20px;
-        margin-left: 100px !important;
-        max-width: 1200px;
+        padding: 30px; 
+        margin-left: 50px ;
+        
     }
     
     .item img{
+        margin-left: 20%;
         padding: 30px;  
         max-height: 200px;
         max-width: 200px;
         
+    }
+    .item p{
+        text-align: justify;
+    }
+    #exito{
+        max-height: 200px;
+        max-width: 150px;
+    }
+    #jumbo{
+        max-height: 200px;
+        max-width: 160px;
+        margin-bottom: -3%;
     }
