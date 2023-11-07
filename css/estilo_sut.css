@@ -9,6 +9,7 @@
     margin-top: 25%;
     justify-content: center;
     border-radius: 10px;
+    height: calc(70vh + 100px);
 }
 
 .primer_paso .Seleccione_una_tienda h2{
@@ -39,11 +40,11 @@
 
 }
 .Seleccione_una_tienda{
-    
+    height: calc(100vh + 100px);
     max-width: 1200px;
     justify-content: center;
     align-items: center;
-    margin: 0 -20px 30px -20px;
+    margin: 0 -20px 10px -20px;
      
 }
 .Seleccione_una_tienda h2{
@@ -197,6 +198,7 @@
 }
 
 .tercer_paso{
+    height: calc(100vh + 100px);
     max-width: 1200px;
     justify-content: center;
     align-items: center;
