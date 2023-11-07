@@ -20,7 +20,6 @@
     padding: 0 50px;
     text-align: justify;
     margin-bottom: 20px;
-   
 }
 
 
@@ -59,7 +58,6 @@
 
 
 .info p{
-    
     margin-top: 40px;
     text-align: center;
     text-align: justify;
@@ -198,5 +196,17 @@
     opacity: 0.4;
 }
 
+.tercer_paso{
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -20px 30px -20px;
+}
 
+.tercer_paso h2{
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 
+}
